@@ -83,3 +83,12 @@ make deploy
 
 Il faut pour cela avoir les autorisations pour publier sur le site  http://docs.shopozor.surge.sh/ et  http://dev.docs.shopozor.surge.sh/. L'utilisateur pour ces sites est cedonner 'at' gmail.com.
 
+## Ressources pour l'utiisation de Sphinx
+
+Sphinx est le système de documentation utilisé par la communauté Python et est vraiment très puissant, notamment pour documenter du code source. Il dispose également d'un très grand nombre d'extensions permettant notamment d'intégrer des diagrammes UML directement dans la documentation.
+
+*   Page d'accueil du projet Sphinx : http://www.sphinx-doc.org/en/master/
+*   Gettings Started : http://www.sphinx-doc.org/en/master/usage/quickstart.html#defining-document-structure
+*   Référence du langage RestructuredText (dialecte Sphinx) : http://www.sphinx-doc.org/en/master/usage/restructuredtext/index.html
+    *   Documentation officielle du langage RestructuredText : http://docutils.sourceforge.net/rst.html
+
