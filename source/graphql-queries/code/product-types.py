@@ -1,0 +1,1 @@
+../../../../../saleor/graphql/product/types.py
