@@ -10,6 +10,7 @@ Table des matières
     :maxdepth: 2
 
     todolist
+    install
     configuration
     graphql/index
     graphql-queries/index

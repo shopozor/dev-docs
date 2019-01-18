@@ -2,11 +2,13 @@
 Configuration
 =============
 
+Un petit test pour voir comment tout cela fonctionne ... Mais ça ne se met pas à jour tout seul ... et il n'y a pas pas la coloration syntaxique malheureusement ...
+
 Chargement de ``shopozor/settings.py``
 ======================================
 
 Pour pouvoir définir notre propre config dans le fichier
-``shopozor/settings.py``, il faut régler la variable d'environnement avec 
+``shopozor/settings.py``, il faut régler la variable d'environnement avec
 
 ::
 
@@ -14,7 +16,7 @@ Pour pouvoir définir notre propre config dans le fichier
 
 ..  tip::
 
-    Pour une utilisation avec pipenv, rajouter 
+    Pour une utilisation avec pipenv, rajouter
 
     ::
 
@@ -39,7 +41,7 @@ Configuration ``dev``, ``staging`` et ``prod``
 On peut même utiliser l'héritage de classe pour permettre de définir des
 paramètres de base communs à toutes les configurations différentes et ensuite
 faire des classes spécialisées pour les différents environnements. Le package
-``django-configurations`` est spécialement prévu pour cela. 
+``django-configurations`` est spécialement prévu pour cela.
 
 ..  tip::
 
