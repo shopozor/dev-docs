@@ -30,6 +30,11 @@ ifdef C9_HOSTNAME
 	SPHINX_URL=https://$(C9_HOSTNAME)/
 endif
 
+ifdef GITPOD_WORKSPACE_URL
+	SPHINX_HOST=0.0.0.0
+	SPHINX_URL=GITPOD_WORKSPACE_URL
+endif
+
 
 # Internal variables.
 PAPEROPT_a4     = -D latex_paper_size=a4
@@ -241,7 +246,7 @@ surge-dev: dev
 surge: surge-html surge-dev
 
 teardown:
-	surge teardown $(DOCS_DOMAIN).surge.sh 
+	surge teardown $(DOCS_DOMAIN).surge.sh
 
 deploy-html: surge-html
 deploy-dev: surge-dev
