@@ -42,6 +42,25 @@ dans la racine du dossier (celui où se trouve le fichier `Makefile`) et cela va
 
 L'adresse pour visualiser le résultat est http://localhost:8080/
 
+### Résolution de problèmes
+
+Il arrive que Sphinx ne voit pas les changements effectués dans les fichiers `.rst`. Il faut à ce moment quitter la commande `make livehtml` avec Ctrl + C et faire 
+
+```
+make clean
+make html
+make livehtml
+```
+
+### Publication dans d'autres formats (LaTeX / PDF / etc ...)
+
+ll existe d'autres formats cibles que le HTML. Voir le fichier Makefile, par exemple
+
+```
+make latex
+make latexpdf
+```
+
 ### Publication de la documentation sur surge.sh
 
 Pour publier la documentation sur surge.sh, il faut installer `surge.sh` avec 
